@@ -1,4 +1,4 @@
-package com.framework.android
+package com.framework.android.ui.base
 
 import android.app.Activity
 
