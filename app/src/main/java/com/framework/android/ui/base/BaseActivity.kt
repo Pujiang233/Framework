@@ -10,11 +10,14 @@ abstract class BaseActivity : AppCompatActivity() {
         LogUtil.d(javaClass.simpleName, "onCreate")
         ActivityCollector.addActivity(this)
 
-
+        initViewData()
         initListener()
     }
 
+    abstract fun initViewData()
     abstract fun initListener()
+
+
 
 
 

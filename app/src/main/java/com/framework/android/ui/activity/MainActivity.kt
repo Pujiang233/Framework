@@ -27,6 +27,12 @@ class MainActivity : BaseActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
+
+        ViewModelActivity.actionStart(this)
+    }
+
+    override fun initViewData() {
+
     }
 
     override fun initListener() {
